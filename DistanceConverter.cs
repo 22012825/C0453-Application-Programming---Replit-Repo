@@ -13,23 +13,16 @@ namespace ConsoleAppProject.App01
         private double miles;
         private double feet;
 
-        /// <summary>
-        /// Prompt the user to enter the distance in miles
-        /// Input the miles as a double number
-        /// <summary>
-        public void Run()
-
-
-        {
+    public void Run()
+    {
             InputMiles();
-            {
-              ConsoleAppProject.  
-            }
             CalculateFeet();
             OutputFeet();
-        }
-
-        
+    }
+      /// <summary>
+      /// Prompt the user to enter the distance in miles
+      /// Input the miles as a double number
+      /// </summary> 
         private void InputMiles()
         {
           Console.Write("Please enter the number of miles >");
